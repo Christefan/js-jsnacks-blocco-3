@@ -20,7 +20,7 @@ const squad = [
 ]
 
 
-const result = squad.map(person => ({ nameS: person.nameS, points:rdmelement(),fouls: rdmelement()}));
+const result = squad.map(newsquad => ({ nameS: newsquad.nameS, points:rdmelement(),fouls: rdmelement()}));
 console.log("Modif: ",result)
 
 console.log( "Original:", squad );
