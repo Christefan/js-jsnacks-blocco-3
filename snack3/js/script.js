@@ -26,5 +26,5 @@ console.log("Modif: ",result)
 console.log( "Original:", squad );
 
 function rdmelement(){
-    return Math.floor(Math.random() * 100);
+    return Math.floor(Math.random() * 100)+1;
 }
